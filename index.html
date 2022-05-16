@@ -1,17 +1,405 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Add React in One Minute</title>
-  </head>
-  <body>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kovan Tech Solutions</title>
+    <!-- core CSS -->
+    <link href="Slider/css/font-awesome.min.css" rel="stylesheet">
+    <link href="Slider/css/animate.min.css" rel="stylesheet">
+    <link href="Slider/css/prettyPhoto.css" rel="stylesheet">
+    <link href="Slider/css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="Slider/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Slider/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Slider/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Slider/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="Slider/images/ico/apple-touch-icon-57-precomposed.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<link rel="stylesheet" href="assets/flexslider/flexslider.css">-->
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+    <!-- Top menu -->
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Kovan Technology Solution</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#"><i class="fa fa-home"></i><br>Home</a>
+                    </li>
+                    <li>
+                        <a href="Solutions.html"><i class="fa fa-comments"></i><br>Solutions</a>
+                    </li>
+                     <li>
+                        <a href="Products.html"><i class="fa fa-tasks"></i><br>Products</a>
+                    </li>
+                    <li>
+                        <a href="services.html"><i class="fa fa-tasks"></i><br>Services</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><i class="fa fa-user"></i><br>About</a>
+                    </li>
+                    <li>
+                        <a href="news.html"><i class="fa fa-newspaper-o"></i><br>News</a>
+                    </li>
+                    <li>
+                        <a href="careers.html"><i class="fa fa-newspaper-o"></i><br>Careers</a>
+                    </li>
+                    <li>
+                        <a href="contact.aspx"><i class="fa fa-envelope"></i><br>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(Slider/images/slider/bg1.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-10">
+                                <div class="carousel-content">
+                                    <h2 class="animation animated-item-2" style="text-shadow: 2px 2px 2px #000000;">BI is about providing the right data at the right time to the right people so that they can take the right decision</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
 
-    <h2>Add React in One Minute</h2>
-    <p>This page demonstrates using React with no build tooling.</p>
-    <p>React is loaded as a script tag.</p>
+                            <!--<div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="Slider/images/slider/img1.png" class="img-responsive">
+                                </div>
+                            </div>-->
 
-    <!-- We will put our React component inside this div. -->
-    <div id="like_button_container"></div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(Slider/images/slider/bg2.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-10">
+                                <div class="carousel-content">
+                                    <h2 class="animation animated-item-2" style=" color:black">Data is the new science. Big Data holds the answers</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+
+                            <!-- <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                 <div class="slider-img">
+                                     <img src="Slider/images/slider/img3.png" class="img-responsive">
+                                 </div>
+                             </div>-->
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(Slider/images/slider/bg3.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-10">
+                                <div class="carousel-content">
+                                    <h2 class="animation animated-item-2"></h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section>
+    <!--/#main-slider-->
+    <div class="work-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 work-title wow fadeIn">
+                    <h2>
+                        Our Solutions
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work18.jpg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work18.jpg">
+                        <h3>
+                            Block Chain Solutions
+                        </h3>
+                        <p>Kovan Technology Solutions (KTS) provides subject matter experts to support your business goals, and outcomes, improving performance and increasing values. Our teams have proven application and process knowledge which improves performance and increase business values.</p>
+                        <a class="big-link-1" href="oracle.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/cloud.jpg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work19.jpg">
+                        <h3>
+                            Cloud Solutions 
+                            Azure & AWS
+                        </h3>
+                        <p>Kovan Technology Solutions (KTS) teams assisting organizations globally to deliver high quality software applications. We will exploit our deep knowledge of current and emerging technologies to help you optimize costs, quality, and customer experience. .</p>
+                        <a class="big-link-1" href="quality.html">Read more</a>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work20.jpeg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work20.jpeg">
+                        <h3>
+                            RPA - Robotic Process Automation
+                        </h3>
+                        <p>Our experts help companies transform business outcomes by delivering innovative salesforce products and services.  We assist our customer to customize right solutions for their companies and providing scalable strategy and roadmap</p>
+                        <a class="big-link-1" href="salesforce.html">Read more</a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-4">
+                    <div class="work wow fadeInDown">
+                        <img src="assets/img/portfolio/work2.png" alt="Ipsum Logo" data-at2x="assets/img/portfolio/work2.png">
+                        <h3>
+                            SHAREPOINT SOLUTIONS
+                        </h3>
+                        <p>
+                            Our solutions are delivered as part of a defined end to end project process and are based on years of experience working with the SharePoint platform and understanding how it can make an impact in the business world
+                        </p>
+                        <a class="big-link-1" href="spsolutions.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/iStock_000028877370_Small.jpg" alt="Lorem Website" data-at2x="assets/img/portfolio/work1.jpg">
+                        <h3>
+                            BUSINESS INTELLEGENCE
+                        </h3>
+                        <p>
+                            We offer targeted Business Intelligence solutions that help you better leverage information to effectively manage your business. Microsoft BI Solutions deliver credible, consistent data, large-scale analytics and data warehouse solutions
+                        </p>
+                        <a class="big-link-1" href="bisolutions.html">Read more</a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-4">
+                    <div class="work wow fadeInDown">
+                        <img src="assets/img/portfolio/work15.jpg" alt="Sit Amet Website" data-at2x="assets/img/portfolio/work15.jpg">
+                        <h3>
+                            Big Data
+                        </h3>
+                        <p>
+                            Why Big Data? Why now? The promise of Big Data is the ability to access large volumes of data that can be useful in gaining critical insights from processing repeated or unique patterns of data or behaviors
+                        </p>
+                        <a class="big-link-1" href="assets/Products/BigdataKovan.pdf" target="_blank">Read more</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work5.jpg" alt="Lorem Website" data-at2x="assets/img/portfolio/work5.jpg" width="348">
+                        <h3>
+                            SAP Solutions
+                        </h3>
+                        <p>
+                            Our Solutions help you connect SAP with any system or data source and expose SAP data and functionality on the web and via mobile device.
+                            Our focuses on clients getting the maximum value from new dimension innovations from SAP HANA.
+                        </p>
+                        <a class="big-link-1" href="sapsolutions.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work16.jpg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work16.jpg">
+                        <h3>
+                            Mobility
+                        </h3>
+                        <p>Our solutions leverage our industry intelligence and technological background, we design and build mobile applications that are customer-friendly and facilitate easy and quick data processing. </p>
+                        <a class="big-link-1" href="mobilesolutions.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work17.jpg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work3.jpg">
+                        <h3>
+                            Integration
+                        </h3>
+                        <p>Our solution provides seamless integration with SharePoint with SAP,Success Factor,Oracle and SaaS. Proficient in planning, design and implement single sign on between hetrogenous applications.</p>
+                        <a class="big-link-1" href="integration.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work18.jpg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work18.jpg">
+                        <h3>
+                            Oracle Solutions
+                        </h3>
+                        <p>Kovan Technology Solutions (KTS) provides subject matter experts to support your business goals, and outcomes, improving performance and increasing values. Our teams have proven application and process knowledge which improves performance and increase business values.</p>
+                        <a class="big-link-1" href="oracle.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work19.jpg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work19.jpg">
+                        <h3>
+                            Quality Engineering, Assurance & Testing
+                        </h3>
+                        <p>Kovan Technology Solutions (KTS) teams assisting organizations globally to deliver high quality software applications. We will exploit our deep knowledge of current and emerging technologies to help you optimize costs, quality, and customer experience. .</p>
+                        <a class="big-link-1" href="quality.html">Read more</a>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-4">
+                    <div class="work wow fadeInUp">
+                        <img src="assets/img/portfolio/work20.jpeg" alt="Dolor Prints" data-at2x="assets/img/portfolio/work20.jpeg">
+                        <h3>
+                            SALESFORCE SOLUTIONS
+                        </h3>
+                        <p>Our experts help companies transform business outcomes by delivering innovative salesforce products and services.  We assist our customer to customize right solutions for their companies and providing scalable strategy and roadmap</p>
+                        <a class="big-link-1" href="salesforce.html">Read more</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="services-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 services-title wow fadeIn">
+                    <h2>
+                        Our Services
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="service wow fadeInUp">
+                        <div class="service-icon">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <h3>
+                            Application Development
+                        </h3>
+                        <p>We develop solutions that meet the most challenging IT Problems. In full lifecycle applicatioxceln projects, We take responsible for analysis, design, implementation, testing and integration of systems.<br /><br /></p>
+                        <a class="big-link-1" href="services.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="service wow fadeInDown">
+                        <div class="service-icon">
+                            <i class="fa fa-table"></i>
+                        </div>
+                        <h3>
+                            Consulting Services
+                        </h3>
+                        <p>
+                            Our consulting services focus on our clients' most critical issues and opportunities;strategy,improve performance,increase effectiveness,reduce cost, technology, and advanced analytics.
+                            <br /><br />
+                        </p>
+                        <a class="big-link-1" href="services.html">Read more</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="service wow fadeInUp">
+                        <div class="service-icon">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <h3>
+                            MOBILE Development
+                        </h3>
+                        <p>
+                            Our commitment to provide our clients with experts user experience design, and custom mobile development to meet the needs of their vision.
+                            We code using best pratice and are always up for a challenge.<br /><br /><br />
+                        </p>
+                        <a class="big-link-1" href="services.html">Read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="service wow fadeInUp">
+                        <div class="service-icon">
+                            <i class="fa fa-magic"></i>
+                        </div>
+                        <h3>
+                            OUTSOURCING
+                        </h3>
+                        <p>IT plays a major part in the efficient running of your organization. But you may not have the staff, budget or infrastructure to support it. Count on us to design, develop and deliver flexible IT solutions—and free up your team for business-critical activities.</p>
+                        <a class="big-link-1" href="services.html">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest work -->
+    <!-- Testimonials -->
+    <div class="testimonials-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 testimonials-title wow fadeIn">
+                    <h2>
+                        Testimonials
+                    </h2>
+                </div>
+            </div>
+            <div id="like_button_container"></div>
 
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
@@ -19,7 +407,162 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
     <!-- Load our React component. -->
-    <script src="like_button.js"></script>
+    <script src="App.js"></script>
 
-  </body>
+                            <!--<div role="tabpanel" class="tab-pane fade" id="tab2">
+                                <div class="testimonial-image">
+                                    <img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>
+                                        " Data Frontline, Inc. has been working with Kovan Technologies for more than a
+                                        year now. We have engaged them on 3 different projects and we are pleased with their
+                                        work. They are knowledgeable and responsive and always provide guidelines for using
+                                        the proper technology platforms. Our company will be looking to increase our partnership
+                                        with Kovan Technologies in the future. We appreciate their efforts and participation
+                                        in our projects which help build our business..."<br>
+                                        <a href="#">Charlie Pomeroy ( CEO )</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab3">
+                                <div class="testimonial-image">
+                                    <img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>
+                                        " Data Frontline, Inc. has been working with Kovan Technologies for more than a
+                                        year now. We have engaged them on 3 different projects and we are pleased with their
+                                        work. They are knowledgeable and responsive and always provide guidelines for using
+                                        the proper technology platforms. Our company will be looking to increase our partnership
+                                        with Kovan Technologies in the future. We appreciate their efforts and participation
+                                        in our projects which help build our business..."<br>
+                                        <a href="#">Charlie Pomeroy ( CEO )</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab4">
+                                <div class="testimonial-image">
+                                    <img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>
+                                        " Data Frontline, Inc. has been working with Kovan Technologies for more than a
+                                        year now. We have engaged them on 3 different projects and we are pleased with their
+                                        work. They are knowledgeable and responsive and always provide guidelines for using
+                                        the proper technology platforms. Our company will be looking to increase our partnership
+                                        with Kovan Technologies in the future. We appreciate their efforts and participation
+                                        in our projects which help build our business..."<br>
+                                        <a href="#">Charlie Pomeroy ( CEO )</a>
+                                    </p>
+                                </div>
+                            </div>-->
+                        </div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#tab1" aria-controls="tab1" role="tab"
+                                   data-toggle="tab"></a>
+                            </li>
+                            <!--<li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">
+                            </a></li>
+                            <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">
+                            </a></li>
+                            <li role="presentation"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">
+                            </a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 footer-box wow fadeInUp">
+                    <h4>About Us</h4>
+                    <div class="footer-box-text">
+                        <p>
+                            Kovan is a customer-centric information technology firm focused on helping organizations get better results from their people, processes and technology. Our clients look to us as a strategic partner with a shared commitment to achieving their business objectives and maximizing their business performance.
+                        </p>
+                        <p><a href="about.html">Read more...</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-3 footer-box wow fadeInDown">
+                    <!-- <h4>Email Updates</h4>
+                     <div class="footer-box-text footer-box-text-subscribe">
+                         <p>Enter your email and you'll be one of the first to get new updates:</p>
+                         <form role="form" action="assets/subscribe.php" method="post">
+                             <div class="form-group">
+                                 <label class="sr-only" for="subscribe-email">Email address</label>
+                                 <input type="text" name="email" placeholder="Email..." class="subscribe-email" id="subscribe-email">
+                             </div>
+                             <button type="submit" class="btn">Subscribe</button>
+                         </form>
+                         <p class="success-message"></p>
+                         <p class="error-message"></p>
+                     </div>-->
+                </div>
+                <div class="col-sm-3 footer-box wow fadeInUp">
+                    <!--<h4>Flickr Photos</h4>
+                    <div class="footer-box-text flickr-feed"></div>-->
+                </div>
+                <div class="col-sm-3 footer-box wow fadeInDown">
+                    <h4>Contact Us</h4>
+                    <div class="footer-box-text footer-box-text-contact" style="line-height:1.5">
+                        <i class="fa fa-map-marker"></i>&nbsp;  1710 S Dairy Ashford Rd, <br />
+                        <i class="fa ">&nbsp;&nbsp;&nbsp;</i>  Suite#208, Houston, TX, 77077<br />
+                        <i class="fa fa-phone"></i>+1.832.220.3283<br />
+                        <i class="fa fa-envelope"></i><a href="mailto:hr@kovantech.com">hr@kovantech.com</a>
+                    </div>
+                </div>
+                <!--<div class="col-sm-3 footer-box wow fadeInDown">
+                    <h4>Contact Us</h4>
+                    <div class="footer-box-text footer-box-text-contact" style="line-height:1.5">
+                        <i class="fa fa-map-marker"></i>&nbsp;  22503 Katy Freeway, <br />
+                        <i class="fa ">&nbsp;&nbsp;&nbsp;</i>  Suite 4, Katy, TX, 77450<br />
+                        <i class="fa fa-phone"></i>+1.832.220.3283<br />
+                        <i class="fa fa-envelope"></i><a href="mailto:info@kovantech.com">info@kovantech.com</a>
+                    </div>
+                </div>-->
+            </div>
+            <div class="row">
+                <div class="col-sm-12 wow fadeIn">
+                    <div class="footer-border"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7 footer-copyright wow fadeIn">
+                    <p>Copyright 2012 Kovan - All rights reserved. Powered by <a href="http://www.kovantech.com/">Kovan</a>.</p>
+                </div>
+                <div class="col-sm-5 footer-social wow fadeIn">
+                    <a href="https://www.facebook.com/Kovan-Technology-Solutions-437377326299142/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/kovan-technology-solutions"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UC3ql4nYHrWLL4JHZIrK3zDg"><i class="fa fa-youtube"></i></a>
+                    <a href="https://twitter.com/KovanTech"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jflickrfeed.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="assets/js/jquery.ui.map.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="Slider/js/jquery.js"></script>
+    <script src="Slider/js/bootstrap.min.js"></script>
+    <script src="Slider/js/jquery.prettyPhoto.js"></script>
+    <script src="Slider/js/jquery.isotope.min.js"></script>
+    <script src="Slider/js/main.js"></script>
+    <script src="Slider/js/wow.min.js"></script>
+</body>
 </html>
